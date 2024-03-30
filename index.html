@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffee Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!--Header section-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="img/logo.jpg" alt="not available" width="100px">
+            <!-- <div class="fas fa-coffee fa-5x"></div> -->
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <!-- CART ITEMS -->
+        <div class="cart-items-container">
+            <div class="cart-items">
+                <span class="fas fa-times"></span>
+                <img src="img/cart-item1.jpg" alt="cart1 image" width="100px" >
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$15.3/-</div>
+                </div>
+            </div>
+            <div class="cart-items">
+                <span class="fas fa-times"></span>
+                <img src="img/cart-item2.webp" alt="cart2 image" width="100px" >
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$15.3/-</div>
+                </div>
+            </div>
+            <div class="cart-items">
+                <span class="fas fa-times"></span>
+                <img src="img/cart-item3.webp" alt="cart3 image" width="100px" >
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$15.3/-</div>
+                </div>
+            </div>
+            <div class="cart-items">
+                <span class="fas fa-times"></span>
+                <img src="img/cart-item4.jpg" alt="cart4 image" width="100px" >
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$15.3/-</div>
+                </div>
+            </div>
+
+            <a href="https://www.amazon.in/s?k=coffee+in+amazon&adgrpid=69094149599&ext_vrnc=hi&gclid=Cj0KCQjwqpSwBhClARIsADlZ_TkS1NR3vdtoxcw-rgp-XEHNlfC3aof37VEuV8NBvUo_h6Q5q4KnCmIaAne3EALw_wcB&hvadid=590868688958&hvdev=c&hvlocphy=9061892&hvnetw=g&hvqmt=e&hvrand=7011989267533696688&hvtargid=kwd-816207042907&hydadcr=10526_2130627&tag=googinhydr1-21&ref=pd_sl_6bhzyg52l3_e" target="_blank" class="btn">Checkout now!</a>
+        </div>
+
+
+    </header>
+    <!--End of Header section-->
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh coffee</h3>
+            <p>Life begins after coffee.</p>
+            <a href="#contacts" class="btn">Get Yours now!</a>
+        </div>
+    </section>
+    <!-- End of Home section -->
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="img/about.jpg" alt="coffeeCup" width="500rem">
+            </div>
+
+            <div class="content">
+                <h3>What makes our coffee special?</h3>
+                <p>The first thing that comes to mind when thinking about specialty coffee is its advanced quality. The flavors hidden in a cup of coffee are rich and crisp, and this comes not just from the quality of the specialty coffee beans, but from the work ethic and dedication put into it by the farmer. </p>
+
+                <p>Specialty coffee roasters are known to roast the beans lighter, enabling them to maintain and bring out diverse flavors that speak about the coffee’s origin. This way of roasting lets you enjoy subtle flavors such as blueberries, milk chocolate, honey, star anise, cane sugar, and more in your everyday cup of joe. </p>
+
+                <a href="https://www.thirdwavecoffeeroasters.com/blogs/blog/specialty-coffee-what-makes-it-so-special" target="_blank" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- Menu section starts -->
+    <section class="menu" id="menu">
+        <h1 class="heading"><span>Menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/menu1.png" alt="cup1" >
+                <h3>Americano</h3>
+                <div class="price">$15.66 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="img/menu2.png" alt="cup2" >
+                <h3>Latte</h3>
+                <div class="price">$15.66 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="img/menu3.png" alt="cup3">
+                <h3>Cappuccino</h3>
+                <div class="price">$15.66 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="img/menu4.png" alt="cup4" >
+                <h3>Espresso</h3>
+                <div class="price">$15.66 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="img/menu5.png" alt="cup5" >
+                <h3>Cortado</h3>
+                <div class="price">$15.66 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="img/menu6.png" alt="cup6" >
+                <h3>Caffee mocha</h3>
+                <div class="price">$15.66 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+    <!-- Menu section ends-->
+    
+    <!-- product section starts -->
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+        <div class="box-container">
+            <!-- 1 -->
+            <div class="box">
+                <div class="icons">
+                    <a href="#"class="fas fa-shopping-cart"></a>
+                    <a href="#"class="fas fa-heart"></a>
+                    <a href="#"class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product1.jpg" alt="product1" >
+                </div>
+                <div class="content">
+                    <h3>Lavazza</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.23 <span>$20.22</span></div>
+                </div>
+            </div>
+
+
+            <!-- 2 -->
+            <div class="box">
+                <div class="icons">
+                    <a href="#"class="fas fa-shopping-cart"></a>
+                    <a href="#"class="fas fa-heart"></a>
+                    <a href="#"class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product2.jpg" alt="product2">
+                </div>
+                <div class="content">
+                    <h3>Caffeine Bar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.23 <span>$20.22</span></div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="box">
+                <div class="icons">
+                    <a href="#"class="fas fa-shopping-cart"></a>
+                    <a href="#"class="fas fa-heart"></a>
+                    <a href="#"class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/product3.jpg" alt="product3" >
+                </div>
+                <div class="content">
+                    <h3>Filter Coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.23 <span>$20.22</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product section ends -->
+
+    <!-- review section starts -->
+    <section class="review" id="reviews">
+        <h1 class="heading">Customer <span>Review</span></h1>
+        <div class="box-container">
+            <!-- person1 -->
+            <div class="box">
+                <img src="img/quote.png" alt="quote img" class="quote" width ="60px">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus laborum modi atque quasi voluptatibus corrupti pariatur ex officiis in rerum.</p>
+                <img src="img/person1.png" class="user" alt="person" >
+                <h3>Jack</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <!-- person2 -->
+            <div class="box">
+                <img src="img/quote.png" alt="quote img" class="quote" width ="60px">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus laborum modi atque quasi voluptatibus corrupti pariatur ex officiis in rerum.</p>
+                <img src="img/person2.png" class="user" alt="person" width ="60px">
+                <h3>Teena</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <!-- person3 -->
+            <div class="box">
+                <img src="img/quote.png" alt="quote img" class="quote" >
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus laborum modi atque quasi voluptatibus corrupti pariatur ex officiis in rerum.</p>
+                <img src="img/person3.webp" class="user" alt="person" width ="60px">
+                <h3>rose</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contacts">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <div class="row">
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31109.316717306472!2d80.17773078252091!3d12.929266040736579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d620ee0ac8d%3A0x72837bcf9ce8405c!2sChai%20Sutta%20Bar!5e0!3m2!1sen!2sin!4v1711623294117!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="Chai.html" onsubmit="return validateForm()">
+                <h3>Get In Touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" id="name" placeholder="name" >   <!-- required -->
+                    <label for="name"></label>
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" id="email" placeholder="email" >
+                    <label for="email"></label>
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" id="phoneNo" placeholder="mobile" >
+                    <label for="phoneNo"></label>
+                </div>
+                
+                <input type="submit" value="contact Now" class="btn" >
+            </form>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- blog section starts -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Our <span>blogs</span></h1>
+        <div class="box-container">
+            <!-- 1st blog -->
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog1.jpg" alt="blog1 image" >
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Brian's Coffee Spot</a>
+                    <span>BRIAN WILLIAMS 2012-2023</span>
+                    <p>I’ve got this passion for coffee and decided to share it with the world. Thus, Brian’s Coffee Spot was born.</p>
+                    <a href="https://www.brian-coffee-spot.com/" class="btn" target="_blank"> Read More</a>
+                </div>
+            </div>
+
+            <!-- 2nd blog -->
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog2.webp" alt="blog1 image" >
+                </div>
+                <div class="content">
+                    <a href="#" class="title">I Need Coffee</a>
+                    <span>BY COFFEE FANS, FOR COFFEE FANS!
+                    </span>
+                    <p>Our Coffee Brewing Guide has over 25 detailed tutorials to help get you started making delicious coffee at home.</p>
+                    <a href="https://ineedcoffee.com/" target="_blank" class="btn"> Read More</button></a>
+                </div>
+            </div>
+
+            <!-- 3rd blog -->
+            <div class="box">
+                <div class="image">
+                    <img src="img/blog3.png" alt="blog1 image" >
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Coffee Review</a>
+                    <span>by Hula Daddy ,LAura's Reserve SL34</span>
+                    <p>Over the course of the ensuing 25-plus years, Coffee Review has become the world’s most widely read and influential coffee buying guide, with as many as one million readers per year. </p>
+                    <a href="https://www.coffeereview.com/" class="btn" target="_blank"> Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="share">
+            <a href="https://www.facebook.com/facebook/" target="_blank" class="fab fa-facebook"></a>
+            <a href="https://twitter.com/" target="_blank" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/home" target="_blank" class="fab fa-linkedin"></a>
+            <a href="https://in.pinterest.com/" target="_blank" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#blogs">Blogs</a>
+        </div>
+
+        <div class="credit">created by <span>Ruphaa Sri KP</span> all Rights reserved</div>
+    </section>
+    <!-- footer section ends -->
+    <script src="script.js"></script>
+</body>
+</html>
